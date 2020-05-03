@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div  class=" mx-auto container-fluid row my-3 py-3">
+
+      <h1 class="col-sm-12 text-center pb-3 mb-4 text-capitalize">pharmacy<br> management system</h1>
+      
+      <div class=" col-lg-7 mx-auto">
+        <label>Product Name :</label>
+        <input class="form-control  mb-3" type="text" name="productName" id="productName"/>
+  
+        <label>Product Price :</label>
+        <input class="form-control  mb-3" type="number" name="productPrice" id="productPrice"/>
+  
+        <label>Product Category :</label>
+        <input  class="form-control  mb-3"   type="text"  name="productCategory" id="productCategory"/>
+  
+        <label>Product Desc :</label>
+        <textarea class="form-control  mb-3"  type="text" name="productDesc" id="productDesc" ></textarea>
+      
+        <button class="px-3 py-2 mt-2 btn btn-info" id="addBtn">Add Product</button>
+      </div>
+
+    </div>
+
+    <div class="col-lg-5 col-md-9 px-5 py-3 m-auto">
+      <input class="form-control" id="search" placeholder="Search By Product Name">
+      <div id="searchReasult" class="bg-light rounded "></div>
+    </div>
+    <div class="container-lg  mt-5">
+      <table class="table text-center">
+        <thead>
+          <th>Product Name</th>
+          <th>Product Price</th>
+          <th>Product Category</th>
+          <th>Product Desc</th>
+          <th></th>
+          <th></th>
+          
+        </thead>
+        <tbody id="tBody"></tbody>
+      </table>
+    </div>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

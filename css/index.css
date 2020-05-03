@@ -1,0 +1,31 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../img/abstract-blur-defocused-pharmacy-drug-store_1203-9459.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+.cursor-pointer:hover
+{
+    background-color: #07437e1e!important;
+}
+.icon-style
+{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.icon-style:hover
+{
+    transform: scale(1.3,1.3);
+}
+
+
+
+
+
+
